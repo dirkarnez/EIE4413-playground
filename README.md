@@ -1,5 +1,5 @@
-portaudio-playground
-====================
+EIE4413-playground
+==================
 ![](https://github.com/dirkarnez/portaudio-playground/actions/workflows/build.yml/badge.svg)
 
 ### Using
