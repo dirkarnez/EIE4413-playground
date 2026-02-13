@@ -2,6 +2,9 @@ EIE4413-playground
 ==================
 ![](https://github.com/dirkarnez/portaudio-playground/actions/workflows/build.yml/badge.svg)
 
+### Tutorials
+- [PortAudio: paex_record.c Source File](https://files.portaudio.com/docs/v19-doxydocs/paex__record_8c_source.html)
+
 ### Using
 - [dirkarnez/portaudio-prebuilt](https://github.com/dirkarnez/portaudio-prebuilt)
 
