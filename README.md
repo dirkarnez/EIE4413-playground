@@ -8,6 +8,7 @@ EIE4413-playground
 - [cycfi/q: C++ Library for Audio Digital Signal Processing](https://github.com/cycfi/q)
 - [PortAudio: paex_record.c Source File](https://files.portaudio.com/docs/v19-doxydocs/paex__record_8c_source.html)
 - [soundspear/formula](https://github.com/soundspear/formula)
+  - [formula/formulas at develop · soundspear/formula](https://github.com/soundspear/formula/tree/develop/formulas)
 
 ### Using
 - [dirkarnez/portaudio-prebuilt](https://github.com/dirkarnez/portaudio-prebuilt)
