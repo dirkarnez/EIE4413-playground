@@ -48,7 +48,7 @@
 #define NUM_CHANNELS    (1)
 /* #define DITHER_FLAG     (paDitherOff) */
 #define DITHER_FLAG     (0) 
-#define WRITE_TO_FILE   (0)
+#define WRITE_TO_FILE   (1)
  
 /* Select sample format. */
 #if 1
@@ -255,23 +255,23 @@ int main(void)
     if( err != paNoError ) goto done;
  
     /* Measure maximum peak amplitude. */
-    max = 0;
-    average = 0.0;
-    for( i=0; i<numSamples; i++ )
-    {
-        val = data.recordedSamples[i];
-        if( val < 0 ) val = -val; /* ABS */
-        if( val > max )
-        {
-            max = val;
-        }
-        average += val;
-    }
+    // max = 0;
+    // average = 0.0;
+    // for( i=0; i<numSamples; i++ )
+    // {
+    //     val = data.recordedSamples[i];
+    //     if( val < 0 ) val = -val; /* ABS */
+    //     if( val > max )
+    //     {
+    //         max = val;
+    //     }
+    //     average += val;
+    // }
  
-    average = average / (double)numSamples;
+    // average = average / (double)numSamples;
  
-    printf("sample max amplitude = "PRINTF_S_FORMAT"\n", max );
-    printf("sample average = %lf\n", average );
+    // printf("sample max amplitude = "PRINTF_S_FORMAT"\n", max );
+    // printf("sample average = %lf\n", average );
  
     /* Write recorded data to a file. */
 #if WRITE_TO_FILE
