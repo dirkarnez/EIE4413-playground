@@ -2,13 +2,15 @@ EIE4413-playground
 ==================
 ![](https://github.com/dirkarnez/EIE4413-playground/actions/workflows/build.yml/badge.svg)
 
-
 ### Tutorials
 - [hosackm/wavplayer: Simple wav file player using libsndfile and portaudio](https://github.com/hosackm/wavplayer)
 - [cycfi/q: C++ Library for Audio Digital Signal Processing](https://github.com/cycfi/q)
 - [PortAudio: paex_record.c Source File](https://files.portaudio.com/docs/v19-doxydocs/paex__record_8c_source.html)
 - [soundspear/formula](https://github.com/soundspear/formula)
   - [formula/formulas at develop · soundspear/formula](https://github.com/soundspear/formula/tree/develop/formulas)
+
+### FFT
+- [VenciFreeman/FFT_ChipDesign: A 16-point radix-4 FFT chip, including Verilog codes, netlists and layout. Group project.](https://github.com/VenciFreeman/FFT_ChipDesign)
 
 ### Using
 - [dirkarnez/portaudio-prebuilt](https://github.com/dirkarnez/portaudio-prebuilt)
